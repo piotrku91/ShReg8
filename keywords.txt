@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map 
+#######################################
+
+latchPin	KEYWORD1
+clockPin	KEYWORD1
+dataPin	        KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+ShiftExec	KEYWORD2
+PrepareALL	KEYWORD2
+PrepareOne	KEYWORD2
+PrepareIntRepresenter	KEYWORD2
+PrepareClear	KEYWORD2
+MoveLeft	KEYWORD2
+MoveRight	KEYWORD2
+ImportSA	KEYWORD2
+ExportSA	KEYWORD2
+GetIntRepresenter	KEYWORD2
+SimpleStep	KEYWORD2
+DecimalInc	KEYWORD2
+DecimalDec	KEYWORD2
+BitAND_i	KEYWORD2
+BitOR_i	KEYWORD2
+PrepareOne_MM KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
