@@ -95,9 +95,10 @@ void DecimalInc() {IntRepresenter++;}
 void DecimalDec() {IntRepresenter--;}
 void BitAND_i(const uint8_t& InInteger) {IntRepresenter=(IntRepresenter bitand InInteger); BA_to_SA(SA);}
 void BitOR_i(const uint8_t& InInteger) {IntRepresenter=(IntRepresenter bitor InInteger); BA_to_SA(SA);}
+void BitXOR_i(const uint8_t& InInteger) {IntRepresenter=(IntRepresenter xor InInteger); BA_to_SA(SA);}
 void PrepareOne_MM(const uint8_t &BitPlace, const bool &NewStatus) // Prepare one by shift and mask method
 {
-  BitOR_i((1 << BitPlace));
+   (NewStatus) ? BitOR_i((1 << BitPlace)):BitXOR_i((1 << BitPlace));
 }
 
 };
